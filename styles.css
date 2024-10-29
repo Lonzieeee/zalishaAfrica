@@ -420,3 +420,105 @@ width: 550px;
     margin-bottom: 5%;
     margin-top: 0;
 }
+
+
+/* ABOUT STYLING */
+
+.image-container{
+    position: relative;
+    width: 100%;
+    margin-top: 15%;
+}
+.background-image{
+    width: 1519.2px;
+    height: 547.2px;
+}
+.overlay-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+
+}
+.overlay-content h2{
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: normal;
+}
+.about-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    text-align: centre;
+}
+.about-buttons button{
+    display: inline-flex;
+    margin: 0;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 22.5px;
+
+}
+.learn-button{
+    background-color: #fff;
+    color: #20AA4E;
+    border: 1px solid #20AA4E;
+    position: relative;
+}
+.meet-button{
+    background-color: #20AA4E;
+    color:#fff ;
+    border: 1px solid #20AA4E;
+    position: relative;
+}
+.learn-button::after{
+    content: "\2193";
+    
+    margin-left: 12px;
+    font-size: 16px;
+    color: #20AA4E;
+}
+.meet-button::after{
+    content: "\2193";
+    margin-left: 12px;
+    font-size: 16px;
+    color: #fff;
+
+}
+.meeting{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+.group-one,.group-two{
+    /* width: 50%; */
+    max-width: 680px;
+    text-align: center;
+}
+.group-one img , .group-two img{
+    width: 517.68px;
+    height: 437.75px;
+}
+.group-one h1 , .group-two h1{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #000;
+
+}
+.group-one p ,.group-two p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+}
+.group-two{
+    margin-top: 30px;
+}
