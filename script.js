@@ -25,7 +25,7 @@ function updateActiveSection(){
 function smoothScroll(deltaY){  //deltaY represents the distance scrolled(+ve for down and -ve for up)
 if (istransitioning) return; //checks if a transition is currntly happening  if so function returns early prventing any further actuons
 istransitioning = true;
-setTimeout(()=> istransitioning = false, 1000); // indicates a transition in progreess then sets transtion to false after 1000 millliseconds ensuring user can scroll again after transition finishes
+setTimeout(()=> istransitioning = false, 500); // indicates a transition in progreess then sets transtion to false after 1000 millliseconds ensuring user can scroll again after transition finishes
 
 if (deltaY > 0){
     currentSection = Math.min(currentSection + 1 , sections.length - 1);
