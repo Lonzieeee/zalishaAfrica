@@ -24,6 +24,11 @@ nav {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
+.hamburger{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
 .container{
     overflow: hidden;
     position: relative;
@@ -578,3 +583,552 @@ margin-bottom: 20px;
     font-weight: 500;
 }
 
+/* RESPONSIVENESS */
+/* Mobile Devices (690px and below) */
+@media (max-width: 690px) {
+    /* Hide the navigation links and display hamburger */
+    ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10%;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      gap: 20px;
+    }
+  
+    /* Show nav menu when nav-active class is added */
+    .nav-active ul {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    .icon-bbar,
+    .sign-in {
+      flex-direction: row;
+      gap: 5px;
+    }
+  .sign-in{
+    display: none;
+  }
+    nav img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    ul li {
+      font-size: 14px;
+    }
+  
+    .sign-in h4 {
+      font-size: 14px;
+    }
+
+        .farmer, .smiling-lady, .Tractor, .green-house, .tomatoes, .flowers {
+            flex-direction: column;
+            margin-top: 20%;
+            gap: 20px;
+            text-align: left;
+            align-items: center;
+        }
+        .farmer img, .smiling-lady img, .Tractor img, .green-house img, .tomatoes img, .flowers img  {
+            width: 100%;
+            height: auto;
+        }
+    
+        .description, .description-2 {
+            width: 100%;
+        }
+        .Tractor .description-3 {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .description h3, .description-2 h3, .description-3 h3 {
+            font-size: 28px;
+            line-height: 34px;
+            
+        }
+        .description button, .description-2 button {
+            font-size: 12px;
+            padding: 12px 20px;
+        }
+    
+        .three-parts {
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    
+        .contacts-info, .buttons {
+            /* width: 100%; */
+            text-align: center;
+            align-items: center;
+        }
+    
+        .contacts-info p, .numbers p, .numbers h3 {
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .description-4 h1{
+            display: none;
+        }
+    
+    
+/* BUSINESS SECTION */
+
+
+.description-second h3 {
+    font-size: 30px; 
+    margin: 0 auto;
+    width: 100%;
+ 
+}
+
+.description-second p {
+    font-size: 16px; 
+    
+}
+
+/* ABOUT SECTION */
+.image-container {
+    margin-top: 15%; 
+}
+.background-image{
+    width: 100%;
+    height: auto;
+}
+
+.overlay-content h2 {
+    font-size: 24px; 
+    line-height: 30px;
+    padding: 0 10px; 
+}
+
+.about-buttons {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-buttons button {
+    width: 90%;    
+    font-size: 12px; 
+    padding: 8px;
+}
+
+.meeting {
+    flex-direction: column; 
+    padding: 10px; 
+}
+
+.group-one, .group-two {
+    width: 100%; 
+    margin: 0; 
+}
+
+.group-one h1, .group-two h1 {
+    font-size: 20px; 
+    text-align: center; 
+    margin: 5px 0; 
+}
+
+.group-one p, .group-two p {
+    font-size: 12px; 
+    width: 90%; 
+    text-align: center; 
+    margin:5px 0 
+}
+
+.group-two {
+    margin-top: 10%; 
+}
+
+
+/* SOLUTIONS */
+.ecology, .credit, .record, .climate {
+    flex-direction: column; 
+    margin-top: 15%;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 0;
+}
+
+.ecology img, .credit img, .record img, .climate img {
+    width: 100%; 
+    height: auto;
+}
+
+.Agro h1 {
+    font-size: 28px;
+    text-align: left;
+}
+
+.Agro p {
+    font-size: 14px; 
+}
+
+.Agro button {
+    padding: 10px 20px; 
+}
+
+  }
+  
+  /* Tablet (690px and above, up to 991px) */
+  @media (min-width: 690px) and (max-width: 991px) {
+    
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 0;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  
+    nav {
+      padding: 10px 5%;
+    }
+    ul li{
+        font-size: 16px;
+        margin: 0 10px;
+    }
+  
+    nav img {
+      width: 55px;
+      height: 55px;
+    }
+  
+    .sign-in h4  {
+    display: none;
+    }
+.icon-bbar h2 , .icon-bbar p{
+    display: none;
+}
+    .farmer, .smiling-lady, .Tractor {
+        flex-direction: column;
+        margin-top: 20%;
+        gap: 20px;
+        text-align: left;
+    }
+    .farmer img, .smiling-lady img, .Tractor img{
+        width: 100%;
+        height: auto;
+    }
+
+    .description, .description-2, .description-3 {
+        width: 100%;
+    }
+
+    .description h3, .description-2 h3 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    .description-3 h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin: 0;
+
+    }
+
+    .three-parts {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .buttons .LinkedIn, .buttons .IG, .buttons .FB, .buttons .TK {
+        width: 180px;
+        font-size: 16px;
+    }
+
+    /* business section */
+    .green-house, .tomatoes, .flowers {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 15px; 
+    }
+
+    .green-house img, .tomatoes img, .flowers img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .description-second h3 {
+        font-size: 36px; 
+        width: 100%;
+     
+    }
+
+    .description-second p {
+        font-size: 18px; 
+    }
+
+
+    /* ABOUT */
+     .image-container {
+        margin-top: 15%; 
+    }
+
+    .background-image {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .overlay-content {
+        text-align: left; 
+        padding: 20px;
+    }
+
+    .overlay-content h2 {
+        font-size: 48px; 
+        line-height: 64px; 
+    }
+
+    .about-buttons {
+        flex-direction: row; 
+        justify-content: center; 
+        gap: 10px; 
+    }
+
+    .about-buttons button {
+        padding: 12px 20px; 
+        font-size: 14px;
+        line-height: 20px; 
+    }
+
+    .meeting {
+        flex-direction: column; 
+        padding: 20px; 
+    }
+
+    .group-one,
+    .group-two {
+        width: 100%; 
+        margin: 0; 
+        text-align: center; 
+    }
+
+    .group-one img,
+    .group-two img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .group-one h1,
+    .group-two h1 {
+        font-size: 24px; 
+        line-height: 32px; 
+        margin-left: 0; 
+    }
+
+    .group-one p,
+    .group-two p {
+        font-size: 14px; 
+        line-height: 20px; 
+        width: 90%; 
+        margin-left: 0; 
+    }
+
+    .group-two {
+        margin-top: 10%; 
+    }
+
+    .foot {
+        padding: 0 5%; 
+        height: auto; 
+    }
+    /* SOLUTIONS */
+    .ecology, .credit, .record, .climate {
+        flex-direction: row; 
+    }
+
+    .ecology img, .credit img, .record img, .climate img {
+        width: 100%; 
+        /* height: auto; */
+    }
+
+    .Agro h1 {
+        font-size: 36px; 
+    }
+
+    .Agro p {
+        font-size: 15px; 
+    }
+
+    .Agro button {
+        padding: 12px 25px; 
+    }
+}
+  
+  /* Medium Desktop (992px and above, up to 1199px) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    nav {
+      padding: 10px 8%;
+    }
+  
+    ul {
+      gap: 30px;
+    }
+  
+    nav img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .sign-in h4 {
+      font-size: 16px;
+    }
+
+    .farmer, .smiling-lady, .Tractor {
+        margin-top: 10%;
+        gap: 5%;
+    }
+    .farmer img, .smiling-lady img, .Tractor img {
+        width: 80%;
+        height: auto;
+    }
+
+    .description, .description-2, .description-3 {
+        width: 70%;
+    }
+
+    .description h3, .description-2 h3, .description-3 h3 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .description button, .description-2 button {
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+    .description-4 h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .three-parts {
+        gap: 30%;
+    }
+    .ecology, .credit, .record, .climate {
+        flex-direction: row; 
+        margin: 10%; 
+    }
+
+    .ecology img, .credit img, .record img, .climate img {
+        width: 45%; 
+        height: auto;
+    }
+
+    .Agro h1 {
+        font-size: 40px; 
+    }
+
+    .Agro p {
+        font-size: 15px; 
+    }
+
+    .Agro button {
+        padding: 12px 25px; 
+    }
+
+    /* Business section */
+    .description-second h3 {
+        font-size: 32px;
+    }
+
+    .description-second p {
+        font-size: 17px; 
+    }
+}
+  
+  
+  /* Large Desktop (1200px and above) */
+  @media (min-width: 1200px) {
+    nav {
+      padding: 10px 10%;
+    }
+  
+    ul {
+      gap: 40px;
+    }
+  
+    nav img {
+      width: 65px;
+      height: 65px;
+    }
+  
+    ul li {
+      font-size: 18px;
+    }
+  
+    .sign-in h4 {
+      font-size: 18px;
+    }
+    .farmer, .smiling-lady, .Tractor {
+        margin-top: 10%;
+        gap: 5%;
+    }
+
+    .farmer img, .smiling-lady img, .Tractor img {
+        width: 587.68px;
+        height: 402.72px;
+    }
+
+    .description h3, .description-2 h3, .description-3 h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .description button, .description-2 button {
+        padding: 15px 25px;
+    }
+
+    .description-4 h1 {
+        font-size: 65px;
+        line-height: 97.5px;
+    }
+
+    .ecology, .credit, .record, .climate {
+        flex-direction: row; 
+        margin: 5%; 
+    }
+
+    .ecology img, .credit img, .record img, .climate img {
+        width: 30%; 
+        height: auto;
+    }
+
+    .Agro h1 {
+        font-size: 48px; 
+    }
+
+    .Agro p {
+        font-size: 16px; 
+    }
+
+    .Agro button {
+        padding: 15px 30px; 
+    }
+
+    /* Business section */
+    .description-second h3 {
+        font-size: 36px; 
+    }
+
+    .description-second p {
+        font-size: 18px; 
+    }
+
+
+  }
+  

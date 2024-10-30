@@ -67,3 +67,11 @@ window.addEventListener("touchmove", (event) => {
 
 
 updateActiveSection();
+
+
+// HAMBURGER MENU
+
+document.querySelector('.hamburger').addEventListener('click', () => {
+    document.querySelector('nav').classList.toggle('nav-active');
+  });
+  
