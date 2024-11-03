@@ -2,6 +2,7 @@ const sections = document.querySelectorAll("section");
 const dots =document.querySelectorAll(".dot");
 let currentSection=0; // Keeps track of the current active section
 let istransitioning = false; //adds flag to control transition timing preventing transitions from occuring at once
+// Intersection Observer setup for scroll-in effect
 
 
 // Function that updates active section and dots

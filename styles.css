@@ -15,7 +15,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 10%;
+  padding: 8px 10%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -56,7 +56,7 @@ ul li {
 
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 ul li a{
     text-decoration: none;
@@ -74,13 +74,13 @@ ul li a:active{
 .icon-bbar {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 .Zal h2 {
   font-size: 28px;
   line-height: 18px;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
 }
 .Zal p {
   font-size: 9px;
@@ -128,14 +128,13 @@ section{
  
     opacity: 0;
     position: absolute;
-    transition: opacity 0.3s ease, transform 0.8s ease;
-    transform: translateY(5%);
+    transition: opacity 0.5s ease, transform 0.8s ease;
+    transform: translateY(20%);
  
 }
 section.active{
     opacity: 1;
-    /* position: relative;
-   z-index: 1; */
+  
    transform: translateY(0);
 }
 #first{
@@ -151,11 +150,11 @@ section.active{
     background-color: #fff;
 }
 .farmer, .smiling-lady{
-    margin-top: 15%;
+    margin-top: 15.5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 15%;
    
 }
  .Tractor{
@@ -167,8 +166,8 @@ section.active{
     
 }
 .farmer img, .smiling-lady img, .Tractor img {
-    width: 587.68px;
-    height: 402.72px;
+    width: 593px;
+    height: 402.725px;
     margin-top: 2%;
     border-radius: 5px;
 }
@@ -428,11 +427,18 @@ width: 550px;
 
 
 /* ABOUT STYLING */
+.plantation img{
+    margin-top: 5%;
+    width: 100vw;
 
+   
+    
+    
+}
 .image-container{
     position: relative;
     width: 100%;
-    margin-top: 15%;
+    /* margin-top: 15%; */
 }
 .background-image{
     width: 1519.2px;
@@ -501,12 +507,14 @@ width: 550px;
     align-items: center;
     margin: 0 auto;
     padding: 40px;
+    margin-top: -18%;
+    
 }
 .group-one,.group-two{
     width: 50%;
     /* max-width: 680px; */
     text-align: center;
-    margin-left: 6%;
+    margin-left: 4%;
 }
 .group-one img , .group-two img{
     width: 517.68px;
@@ -519,7 +527,7 @@ width: 550px;
     margin-top:20px;
     color: #000;
     text-align: left;
-    margin-left: 7%;
+    margin-left: 9%;
 
 }
 .group-one p ,.group-two p {
@@ -528,7 +536,7 @@ width: 550px;
     color: #404040;
     text-align: left;
     width: 450px;
-    margin-left: 7%;
+    margin-left: 9%;
 }
 .group-two{
     margin-top: 18%;
@@ -549,7 +557,7 @@ height: 100vh;
 .ecology , .credit , .record , .climate{
     display: flex;
     margin: 10%;
-    margin-top: 15%;
+    margin-top: 10%;
     align-items: center;
     justify-content: center;
     padding: 5px 20px;
@@ -681,7 +689,9 @@ margin-bottom: 20px;
         .description-4 h1{
             display: none;
         }
-    
+    .plantation{
+        margin-top: 12%;
+    }
     
 /* BUSINESS SECTION */
 
@@ -727,6 +737,7 @@ margin-bottom: 20px;
 .meeting {
     flex-direction: column; 
     padding: 10px; 
+   
 }
 
 .group-one, .group-two {
@@ -973,7 +984,7 @@ margin-bottom: 20px;
 }
   
   /* Medium Desktop (992px and above, up to 1199px) */
-  @media (min-width: 992px) and (max-width: 1199px) {
+  /* @media (min-width: 992px) and (max-width: 1199px) {
     nav {
       padding: 10px 8%;
     }
@@ -1040,21 +1051,21 @@ margin-bottom: 20px;
 
     .Agro button {
         padding: 12px 25px; 
-    }
+    } */
 
     /* Business section */
-    .description-second h3 {
+    /* .description-second h3 {
         font-size: 32px;
     }
 
     .description-second p {
         font-size: 17px; 
     }
-}
+} */
   
   
   /* Large Desktop (1200px and above) */
-  @media (min-width: 1200px) {
+  /* @media (min-width: 1200px) {
     nav {
       padding: 10px 10%;
     }
@@ -1118,10 +1129,10 @@ margin-bottom: 20px;
 
     .Agro button {
         padding: 15px 30px; 
-    }
+    } */
 
     /* Business section */
-    .description-second h3 {
+    /* .description-second h3 {
         font-size: 36px; 
     }
 
@@ -1131,4 +1142,4 @@ margin-bottom: 20px;
 
 
   }
-  
+    */
