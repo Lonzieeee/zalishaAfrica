@@ -624,6 +624,7 @@ margin-bottom: 20px;
       box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
       gap: 20px;
     }
+   
   
     /* Show nav menu when nav-active class is added */
     .nav-active ul {
@@ -659,14 +660,14 @@ margin-bottom: 20px;
 
         .farmer, .smiling-lady, .Tractor, .green-house, .tomatoes, .flowers {
             flex-direction: column;
-            margin-top: 20%;
+            margin-top: 45%;
             gap: 20px;
             text-align: left;
             align-items: center;
         }
         .farmer img, .smiling-lady img, .Tractor img, .green-house img, .tomatoes img, .flowers img  {
-            width: 100%;
-            height: auto;
+            width: 387px;
+            height: 348px;
         }
     
         .description, .description-2 {
@@ -728,11 +729,11 @@ margin-bottom: 20px;
 
 /* ABOUT SECTION */
 .image-container {
-    margin-top: 15%; 
+    margin-top: 0; 
 }
 .background-image{
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
 }
 
 .overlay-content h2 {
@@ -742,14 +743,13 @@ margin-bottom: 20px;
 }
 
 .about-buttons {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 5px;
 }
 
 .about-buttons button {
-    width: 90%;    
-    font-size: 12px; 
-    padding: 8px;
+    width:200px;
+   
 }
 
 .meeting {
@@ -757,22 +757,26 @@ margin-bottom: 20px;
     padding: 10px; 
    
 }
-
+.group-one img , .group-two img{
+    width: 387px;
+    height: 400px;
+}
 .group-one, .group-two {
     width: 100%; 
     margin: 0; 
+    margin-top:-240px;
 }
 
 .group-one h1, .group-two h1 {
-    font-size: 20px; 
-    text-align: center; 
+    font-size: 30px; 
+    text-align: left; 
     margin: 5px 0; 
 }
 
 .group-one p, .group-two p {
-    font-size: 12px; 
+    font-size: 16px; 
     width: 90%; 
-    text-align: center; 
+    text-align: left; 
     margin:5px 0 
 }
 
@@ -784,28 +788,37 @@ margin-bottom: 20px;
 /* SOLUTIONS */
 .ecology, .credit, .record, .climate {
     flex-direction: column; 
-    margin-top: 15%;
+    margin-top: -30%;
     align-items: center;
     gap: 15px;
     padding: 5px 0;
 }
 
 .ecology img, .credit img, .record img, .climate img {
-    width: 100%; 
-    height: auto;
+    width: 387px; 
+    height: 357.5px;
+}
+.Agro{
+    width: 90%;
 }
 
 .Agro h1 {
-    font-size: 28px;
+    font-size: 35px;
     text-align: left;
+    
 }
 
 .Agro p {
     font-size: 14px; 
+    text-align: left;
 }
 
 .Agro button {
     padding: 10px 20px; 
+}
+.plantation img{
+    width:100%;
+    height: 110px;
 }
 
   }
