@@ -336,7 +336,7 @@ margin-bottom: 5%;
 /* DOTS FOR NAVIGATION OF SECTION   */
 .dots{
     position: fixed;
-    top: 500px;
+    top: 400px;
     /* right: 20px; */
     
 /* width: auto;
@@ -428,8 +428,9 @@ width: 550px;
 
 /* ABOUT STYLING */
 .plantation img{
-    margin-top: 5%;
+    margin-top:4%;
     width: 100vw;
+    height: 210px;
 
    
     
@@ -441,12 +442,15 @@ width: 550px;
     /* margin-top: 15%; */
 }
 .background-image{
-    width: 1519.2px;
-    height: 547.2px;
+    width: 1519.2px; 
+
+     height: 547.2px;
+
 }
 .overlay-content{
     position: absolute;
-    top: 50%;
+    top: 50%; 
+
     left: 50%;
     transform: translate(-50%, -50%);
     color: #000;
@@ -556,13 +560,27 @@ height: 100vh;
 }
 .ecology , .credit , .record , .climate{
     display: flex;
-    margin: 10%;
-    margin-top: 10%;
+  
+    margin-top: -6%;
     align-items: center;
     justify-content: center;
     padding: 5px 20px;
     gap: 20px;
+    width: 100vw; 
+    height: 100vh;
+ 
+    
   
+}
+.credit{
+    background-color: #F5F5F5;
+}
+.climate{
+    background-color: #F2EFE9;
+
+}
+.Agro{
+    width: 650px;
 }
 
 .Agro h1{
@@ -793,7 +811,7 @@ margin-bottom: 20px;
   }
   
   /* Tablet (690px and above, up to 991px) */
-  @media (min-width: 690px) and (max-width: 991px) {
+  @media (min-width: 691px) and (max-width: 991px) {
     
     ul {
       display: flex;
@@ -983,89 +1001,10 @@ margin-bottom: 20px;
     }
 }
   
-  /* Medium Desktop (992px and above, up to 1199px) */
-  /* @media (min-width: 992px) and (max-width: 1199px) {
-    nav {
-      padding: 10px 8%;
-    }
-  
-    ul {
-      gap: 30px;
-    }
-  
-    nav img {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .sign-in h4 {
-      font-size: 16px;
-    }
-
-    .farmer, .smiling-lady, .Tractor {
-        margin-top: 10%;
-        gap: 5%;
-    }
-    .farmer img, .smiling-lady img, .Tractor img {
-        width: 80%;
-        height: auto;
-    }
-
-    .description, .description-2, .description-3 {
-        width: 70%;
-    }
-
-    .description h3, .description-2 h3, .description-3 h3 {
-        font-size: 42px;
-        line-height: 48px;
-    }
-    .description button, .description-2 button {
-        padding: 12px 22px;
-        font-size: 14px;
-    }
-    .description-4 h1 {
-        font-size: 50px;
-        line-height: 70px;
-    }
-
-    .three-parts {
-        gap: 30%;
-    }
-    .ecology, .credit, .record, .climate {
-        flex-direction: row; 
-        margin: 10%; 
-    }
-
-    .ecology img, .credit img, .record img, .climate img {
-        width: 45%; 
-        height: auto;
-    }
-
-    .Agro h1 {
-        font-size: 40px; 
-    }
-
-    .Agro p {
-        font-size: 15px; 
-    }
-
-    .Agro button {
-        padding: 12px 25px; 
-    } */
-
-    /* Business section */
-    /* .description-second h3 {
-        font-size: 32px;
-    }
-
-    .description-second p {
-        font-size: 17px; 
-    }
-} */
   
   
   /* Large Desktop (1200px and above) */
-  /* @media (min-width: 1200px) {
+  @media (min-width: 1600px) {
     nav {
       padding: 10px 10%;
     }
@@ -1086,19 +1025,26 @@ margin-bottom: 20px;
     .sign-in h4 {
       font-size: 18px;
     }
-    .farmer, .smiling-lady, .Tractor {
-        margin-top: 10%;
-        gap: 5%;
+    .farmer, .smiling-lady, .Tractor,.green-house, .tomatoes, .flowers  {
+        margin-top: 15%;
+        gap: 20%;
+        align-items: center;
     }
 
-    .farmer img, .smiling-lady img, .Tractor img {
-        width: 587.68px;
-        height: 402.72px;
+    .farmer img, .smiling-lady img, .Tractor img,.tomatoes img, .flowers img,.green-house img {
+        width: 748px;
+        height: 581.875px;
     }
 
     .description h3, .description-2 h3, .description-3 h3 {
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 45px;
+        line-height: 50px;
+        width: 610px;
+        /* background-color: #007AFF; */
+    }
+    .dots{
+        left: 1900px;
+        top: 500px;
     }
     .description button, .description-2 button {
         padding: 15px 25px;
@@ -1111,16 +1057,23 @@ margin-bottom: 20px;
 
     .ecology, .credit, .record, .climate {
         flex-direction: row; 
-        margin: 5%; 
+        align-items: center;
+        gap: 2%;
+        margin-top: -5%;
+
     }
 
     .ecology img, .credit img, .record img, .climate img {
-        width: 30%; 
-        height: auto;
+        width: 741.20px; 
+        height: 515.45px;
+    }
+    .Agro{
+        width: 40%;
     }
 
     .Agro h1 {
-        font-size: 48px; 
+        font-size: 45px;
+        line-height: 50px; 
     }
 
     .Agro p {
@@ -1132,14 +1085,86 @@ margin-bottom: 20px;
     } */
 
     /* Business section */
-    /* .description-second h3 {
-        font-size: 36px; 
+    .description-second h3 {
+        font-size:42px; 
     }
 
     .description-second p {
         font-size: 18px; 
     }
-
+    .background-image{
+        /* width: 1519.2px; */
+        width: 100vw;
+        /* height: 547.2px; */
+        height: 100vh;
+    }
+    .overlay-content{
+        position: absolute;
+        /* top: 50%; */
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #000;
+        text-align: center;
+    
+    }
+    .chandaria{
+       
+        margin-top: 15%;
+        gap: 160px;
+       
+    }
+    .three-parts{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 45%;
+      
+    }
+    .three-parts img{
+        width:360.45px;
+        height:349.40px;
+    }
+    .contacts-info{
+        width: 230px;
+    
+    }
+   
+    
+    .buttons{
+        
+        gap: 22px;
+    }
+    .buttons .LinkedIn{
+      width: 220px;
+      
+        padding: 7px 0;
+       
+    }
+    .buttons .IG{
+        width: 220px;
+      
+        padding: 7px 0;
+    
+       
+    
+    }
+    .buttons .FB{
+        width: 220px;
+      
+        padding: 7px 0;
+        
+       
+    
+    }
+    .buttons .TK{
+        width: 220px;
+        
+         padding: 7px 0;
+         
+    
+    }
+    
 
   }
-    */
+   
